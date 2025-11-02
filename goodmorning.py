@@ -207,7 +207,7 @@ def GetWeather(root):
 f = ("poppins", 15, "bold")
 t = ("poppins", 35, "bold")
 
-textfield = tk.Entry(root, justify= "center", font = t, fg='cyan', bg=)
+textfield = tk.Entry(root, justify= "center", font = t, fg='cyan', bg='grey15')
 textfield.place(x=1000, y=20)
 textfield.focus()
 textfield.bind('<Return>', GetWeather)
