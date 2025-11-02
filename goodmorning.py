@@ -55,7 +55,7 @@ def deltask():
 label7 = tk.Label(root, text="Your Tasks:", font=("Arial", 14))
 label7.place(y=10, x=10)
 
-listbox = tk.Listbox(root, width=30, height=10, fg='cyan', justify='center')
+listbox = tk.Listbox(root, width=30, height=10, fg='cyan',bg='gray15', justify='center')
 listbox.place(y=56, x=10)
 listtasks()
 
@@ -207,7 +207,7 @@ def GetWeather(root):
 f = ("poppins", 15, "bold")
 t = ("poppins", 35, "bold")
 
-textfield = tk.Entry(root, justify= "center", font = t, fg='cyan')
+textfield = tk.Entry(root, justify= "center", font = t, fg='cyan', bg=)
 textfield.place(x=1000, y=20)
 textfield.focus()
 textfield.bind('<Return>', GetWeather)
